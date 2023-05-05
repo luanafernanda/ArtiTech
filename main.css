@@ -1,0 +1,65 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-nav .nav-link-active {
+  position: relative;
+  color: white;
+}
+
+.nav-link {
+  text-align: center;
+  color: #fff;
+}
+
+hr {
+  color: #fff;
+}
+
+.nav-item > a.active {
+background-color: lightgray !important;
+}
+
+.nav-item > a:hover {
+color: lightgray;
+}
+
+section {
+  background-color: black;
+  padding-top: 70px;
+  color: #fff;
+}
+
+header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: #fff;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.card {
+  background-color: black;
+  color: #fff;
+  border-color: gray;
+}
+
+.btn {
+  background-color: lightgrey;
+  color: black;
+}
+
